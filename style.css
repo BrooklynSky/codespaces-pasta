@@ -1,9 +1,14 @@
 * {
     font-family: helvetica;
-      border:1px solid blue;
+     
+       
+  }
+
+  body{
+   
   }
   .main {
-    background: rgb(250, 227, 135);
+    background: #3c2e21ff;
     width: 70%;
     margin: 0 auto;
   }
@@ -13,8 +18,9 @@
     justify-content: space-around;
     position: sticky;
     top: 0;
-    background: rgb(231, 154, 129);
+    background: #82781aff;
       font-size: 1.5vw;
+    
   }
   
   .top {
@@ -39,6 +45,9 @@
   h1 {
     text-align: center;
     font-size: 3vw;
+    color:#ba3a02ff;
+    border: 1px, solid, black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   
   .bottom2 {
@@ -48,6 +57,7 @@
   p {
     font-family: hebrew;
       font-size: 1.5vw;
+      color:white;
   }
   
   @media screen and (max-width: 480px) {
@@ -65,26 +75,10 @@
     left: 10%;
     top: 30%;
        font-size: 2vw;
-       -webkit-animation: glow 1s ease-in-out infinite alternate;
-  -moz-animation: glow 1s ease-in-out infinite alternate;
-  animation: glow 1s ease-in-out infinite alternate;
+  
       
   }
-  @-webkit-keyframes glow {
-    from {
-      text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30rgb(255, 0, 0)fff, 0 0 40px #ff0000, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ffffff;
-    }
-    to {
-      text-shadow: 0 0 20px #fff, 0 0 30px #ff0000, 0 0 40px #ff9900, 0 0 50px #ff0000, 0 0 60px #ff0000, 0 0 70px #ff0000, 0 0 80px #ff0000;
-    }
-  }
-
-
-
-
-
-
-
+  
 
   .ad{
         position: relative;
@@ -95,7 +89,7 @@
   .imgbuttom{
       position: absolute;
     left: 10%;
-    top: 60%;
+    top: 50%;
            font-size: 1.5vw;
   
   }
