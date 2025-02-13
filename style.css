@@ -94,3 +94,21 @@
   
   }
   
+  .contactinfo{
+    display: flex;
+    background: #82781aff;
+    justify-content: space-around;
+    font-size: 1.5vw;
+    
+    
+  }
+
+  .contactinfo2{
+    display: flex;
+    background: #82781aff;
+    justify-content: space-around;
+    font-size: 1.5vw;
+    
+    
+    
+  }
